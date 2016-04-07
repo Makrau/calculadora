@@ -19,3 +19,7 @@ class ClassCalculadora():
 
 		return resultado
 
+	def potencia(self, x, y):
+		resultado = x ** y
+
+		pass
