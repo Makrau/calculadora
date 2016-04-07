@@ -42,4 +42,7 @@ class ClassCalculadora():
 			return x * self.fatorial(x-1)
 
 	def valor_absoluto(self, x):
-		pass
+		if(x >= 0):
+			return x
+		else:
+			return -x
