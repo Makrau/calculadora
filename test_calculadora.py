@@ -23,3 +23,7 @@ def test_calculadora_potencia():
 def test_calculadora_raiz():
 	calc = ClassCalculadora()
 	assert calc.raiz(4.0,2.0) == 2
+
+def test_calculadora_log():
+	calc = ClassCalculadora()
+	assert calc.log(2.0, 4.0) == 2
