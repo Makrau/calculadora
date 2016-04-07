@@ -34,3 +34,6 @@ class ClassCalculadora():
 		resultado = math.log(x, y)
 
 		return resultado
+
+	def fatorial(self, x):
+		pass
