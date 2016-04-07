@@ -27,3 +27,7 @@ def test_calculadora_raiz():
 def test_calculadora_log():
 	calc = ClassCalculadora()
 	assert calc.logaritmo(4.0, 2.0) == 2
+
+def test_calculadora_fatorial():
+	calc = ClassCalculadora()
+	assert calc.fatorial(5) == 120
