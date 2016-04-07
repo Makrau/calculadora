@@ -26,4 +26,4 @@ def test_calculadora_raiz():
 
 def test_calculadora_log():
 	calc = ClassCalculadora()
-	assert calc.log(2.0, 4.0) == 2
+	assert calc.logaritmo(4.0, 2.0) == 2

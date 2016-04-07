@@ -30,7 +30,7 @@ class ClassCalculadora():
 
 		return resultado
 
-	def log(self, x, y):
-		resultado = log(x, y)
+	def logaritmo(self, x, y):
+		resultado = math.log(x, y)
 
-		pass
+		return resultado
