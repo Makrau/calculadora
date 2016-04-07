@@ -29,3 +29,8 @@ class ClassCalculadora():
 		resultado = x ** (1/y)
 
 		return resultado
+
+	def log(self, x, y):
+		resultado = log(x, y)
+
+		pass
