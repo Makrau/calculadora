@@ -12,3 +12,7 @@ def test_calculadora_divisao():
 	calc = ClassCalculadora()
 	assert calc.divisao(4,2) == 2
 
+def test_calculadora_multiplicacao():
+	calc = ClassCalculadora()
+	assert calc.multiplicacao(4,2) == 8
+
