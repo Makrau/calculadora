@@ -19,3 +19,7 @@ def test_calculadora_multiplicacao():
 def test_calculadora_potencia():
 	calc = ClassCalculadora()
 	assert calc.potencia(4,2) == 16
+
+def test_calculadora_raiz():
+	calc = ClassCalculadora()
+	assert calc.raiz(4,2) == 2
