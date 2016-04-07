@@ -8,3 +8,8 @@ class ClassCalculadora():
 		resultado = x - y
 
 		return resultado
+
+	def divisao(self, x, y):
+		resultado = x / y
+
+		pass
