@@ -13,3 +13,9 @@ class ClassCalculadora():
 		resultado = x / y
 
 		return resultado
+
+	def multiplicacao(self, x, y):
+		resultado = x * y
+
+		pass
+
