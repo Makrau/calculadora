@@ -27,4 +27,4 @@ class ClassCalculadora():
 	def raiz(self, x, y):
 		resultado = x ** (1/y)
 
-		pass
+		return resultado
