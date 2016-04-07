@@ -12,4 +12,4 @@ class ClassCalculadora():
 	def divisao(self, x, y):
 		resultado = x / y
 
-		pass
+		return resultado
