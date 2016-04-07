@@ -23,3 +23,8 @@ class ClassCalculadora():
 		resultado = x ** y
 
 		return resultado
+
+	def raiz(self, x, y):
+		resultado = x ** (1/y)
+
+		pass
