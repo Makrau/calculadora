@@ -36,4 +36,7 @@ class ClassCalculadora():
 		return resultado
 
 	def fatorial(self, x):
-		pass
+		if(x <= 1):
+			return 1
+		else:
+			return x * self.fatorial(x-1)
