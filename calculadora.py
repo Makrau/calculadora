@@ -40,3 +40,6 @@ class ClassCalculadora():
 			return 1
 		else:
 			return x * self.fatorial(x-1)
+
+	def valor_absoluto(self, x):
+		pass
